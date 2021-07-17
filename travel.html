@@ -1,0 +1,258 @@
+<html>
+<head>
+    <title>Shreya Patidar</title>
+    <!--<link ref ="stylesheet" type="text/css" href="css.css">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+
+ body{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   
+ }     
+    
+.heading{
+    background-color: black;
+    text-align: center;
+}
+.myDiv {
+  border: 5px outset paleturquoise; 
+  text-align: center;
+  margin-top: 10px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 1px;
+  
+}
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+input[type=submit] {
+
+  background-color: gray;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.nav{
+  width:100%;
+  height: 50px;
+  background: black;
+  opacity: 0.9;
+  color: white;
+  font-size: 1em;
+  display: flex;
+  flex-direction: row;
+}
+.logo{
+  width:30%;
+  padding-top: 1em;
+  font-weight: bold;
+}
+.navbar-items{
+  width: 70%;
+  text-align: end;
+  padding-top: 1em;
+}
+.nav-item{
+  padding-right: 20px;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  right: 50px;
+}
+h1{
+  padding-left: 0.5em;
+  text-align: center;
+  font-size: 1.4em;
+  display: inline;
+  padding-right: 0.5em;
+}
+.hero-img{
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+.footer{
+  width: 100%;
+  padding: 1em ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: black;
+  color: white;
+}
+.title{
+  color: white;
+  text-align: center;
+  padding-bottom: 0.5em;
+}
+input{
+  padding: 0.5em;
+  margin-top: 0.5em;
+}
+
+    </style>
+</head>
+<body>
+  <span class ="nav">
+    <span class="logo"><h1>Travel Stories</h1></span>
+    <span class="navbar-items">
+      <a href="#" class="nav-item">About Us</a>
+      <a href="#" class="nav-item">Services</a>
+      <a href="#" class="nav-item">Contact Us</a>
+
+    </span>
+  </span>
+  <!--<a href="testfile.html">Test Link</a>-->
+  
+   <div class="image">
+     <img src="./images/travel8.jpg" class="hero-img">
+   </div>
+
+    
+    <div class="myDiv">
+        <h2>ABOUT US</h2>
+        <p>
+            Let us curate an inspiring experience as you enjoy a personally-themed<br>
+            adventure catered to your experience.
+            Discover new cultures and have a wonderful rest with US! <br>
+            Select the country you’d like to visit and we will plan everything for you!!
+        </p>
+    </div>
+    <h2 align="center">Our services</h2>
+    <!--<ul>
+        <li>Best Hotels</li>
+        <li>Tour Planning</li>
+        <li>Consultancy</li>
+        <li>Tourist Guide</li>
+
+        <ol>
+            <li>For Adventure lovers</li>
+            <li>Best For Family</li>
+            <li>Best for Europe</li>
+            <li>Central Asia</li>
+            <li>Nature Tour</li>
+            <li>Cruise</li>
+
+        </ol>
+    </ul>-->
+    <!--<center>
+        <div class="div"></div>
+    <figure>
+       <img src="travel1.jpg" height="300" width="300"   >
+        <figcaption>Wanderlust</figcaption>
+        <img src="./images/travel3.jpg" height="300" width="300" >
+        <figcaption>Let's explore the unseen</figcaption>
+        <img src="./images/travel5.jpg" height="300" width="300">
+    </figure>
+    </center>-->
+    <div class="row">
+        <div class="column">
+          <img src="./images/travel9.jpg" alt="Snow" style="width:300px;height:300px" >
+          <figcaption style="text-align:center">Plan your stays with us</figcaption>
+        </div>
+        <div class="column">
+          <img src="./images/travel3.jpg" alt="Forest" style="width:300;height: 300">
+          <figcaption style="text-align:center">Lets explore the unseen</figcaption>
+
+        </div>
+        <div class="column">
+          <img src="./images/travel5.jpg" alt="Mountains" style="width:300;height: 300">
+          <figcaption style="text-align:center">Luxury Cruise</figcaption>
+
+        </div>
+        <div class="column">
+            <img src="./images/travel6.jpg" alt="Mountains" style="width:300;height: 300">
+            <figcaption style="text-align:center">A day on Beach</figcaption>
+
+          </div>
+      </div>
+    <h2 align="center">The Best Tours</h2>
+
+    <p align="center">Whether it’s your first international trip or you have travelled abroad multiple times, planning a holiday to a distant land is always a special feeling.
+    </p>
+     <div class="row">
+        <div class="column">
+          <img src="./images/1.jpg" alt="Snow" style="width:400;height:400" >
+          <figcaption style="text-align:center">London</figcaption>
+          <p>From Buckingham Palce to Warner Bros Studios , London has something for everyone.</p>
+        </div>
+        <div class="column">
+          <img src="./images/2.jpg" alt="Forest" style="width:400;height: 400">
+          <figcaption style="text-align:center">New York</figcaption>
+          <p>From sitting on the banks of Hudson River to watching the mighty and iconic skyscrapers.</p>
+
+        </div>
+        <div class="column">
+          <img src="./images/3.jpg" alt="Mountains" style="width:400;height: 400">
+          <figcaption style="text-align:center">Switzerland</figcaption>
+          <p>Switzerland is a mountainous Central European country, home to numerous lakes, villages and the high peaks of the Alps. 
+        </p>
+
+        </div>
+
+      </div>
+     
+        
+
+    <h2>FeedBack</h2>
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="india">India</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+    <div class="footer">
+      <div class="title">
+        Subscribe to our Monthly Magzine!!
+      </div>
+      <form name="form">
+        <label>Name</label>
+        <input type="text" class="name" placeholder="Enter your name"><br>
+        <label>Email</label>
+
+        <input type="temail"  placeholder="Enter your email"><br>
+        <input type="submit" class="button" value="Submit">
+
+
+      </form>
+    </div>
+       
+
+</body>
+</html>
